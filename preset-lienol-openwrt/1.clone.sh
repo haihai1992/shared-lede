@@ -3,7 +3,7 @@
 # download base code
 CODE_DIR=_firmware_code
 CODE_URL=https://github.com/Lienol/openwrt
-CODE_BRANCH=24.10
+CODE_BRANCH=22.03
 git clone --depth 1 -b $CODE_BRANCH $CODE_URL $CODE_DIR
 mv ./$CODE_DIR/* ./
 
